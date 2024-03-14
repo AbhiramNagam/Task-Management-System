@@ -1,0 +1,78 @@
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h1, h2, h3, p {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.task-form {
+  display: none;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+label {
+  flex: 1;
+  margin: 0 10px;
+}
+
+input[type="text"],
+textarea,
+select,
+input[type="datetime-local"],
+button {
+  flex: 2;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 0 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px 20px;
+}
+.addTaskButton {
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+}
+button:hover {
+  background-color: #45a049;
+}
